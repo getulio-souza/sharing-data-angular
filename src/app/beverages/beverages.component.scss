@@ -1,0 +1,37 @@
+.child{
+  border: 1px solid #f1f0f0;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  color: #1976d2;
+  margin-bottom: 5px;
+}
+
+.underline{
+  margin: 0 auto;
+  width: 150px;
+  height: 5px;
+  background-color: #1976d2;
+}
+
+button{
+  margin-left: 5px;
+  color: #fff;
+  background-color: #1976d2;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input{
+  height: 22px;
+}
+
+label{
+  margin: 0 10px;
+}

@@ -1,0 +1,30 @@
+@import url(./beverages/beverages.component.scss);
+
+.parent {
+  border: 1px solid #cec9c9;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 1px 2px 2px #cec9c9;
+}
+
+h2{
+  text-align: center;
+  color: #1976d2;
+}
+
+li{
+  list-style: circle;
+}
+.parent ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.parent ul>li{
+  list-style-type: none;
+  background-color: #1976d2;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
